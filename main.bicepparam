@@ -1,6 +1,6 @@
 using 'main.bicep'
 
-param storageAccountPrefix = 'svmp'
+param storageAccountPrefix = 'svm'
 param vnetName = 'vnet-svm-prod-bicep'
 param vnetAddressSpace = '10.0.0.0/16'
 param appSubnetName = 'snet-app-svm-prod'
