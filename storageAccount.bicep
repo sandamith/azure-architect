@@ -24,7 +24,7 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2024-01-01' = {
 }
 
 resource lifecycleMgmt 'Microsoft.Storage/storageAccounts/managementPolicies@2024-01-01' = {
-  name: 'lifecycleMgmtPolicy'
+  name: 'default'
   parent: storageAccount
   properties: {
     policy: {
